@@ -1,0 +1,19 @@
+.back{
+	background: url('images/background.jpg');
+}
+.text{
+	color: #fff;
+}
+.poster{
+	margin-top: 100px;
+	background-color: #13245e;
+	border: 3px solid black;
+	border-radius: 40px;
+	padding: 20px;
+}
+.btn{
+	margin:30px;
+}
+.btn-text{
+	font-size: 40px;
+}

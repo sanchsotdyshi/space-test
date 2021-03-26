@@ -1,0 +1,43 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+ 
+    <link rel="stylesheet" type="text/css" href="{% static 'lectures/lectures-style.css' %}">
+ 
+    <title>Hello, world!</title>
+
+  </head>
+  <body class="back">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8 mt-5 player">
+          <div class="ratio ratio-16x9">
+            <video src={{ source }} controls autoplay></video>
+          </div>
+          <div class="row">
+            <div class="col-10"></div>
+              <div class="col-2">
+                {% if next == 6 %}
+                  <a href="{%url 'task:test' %}"><button type="button" class="btn btn-primary l-btn"><span class="fs-4">Начать тест</span></button></a>
+                {% else %}
+                  <a href="{%url 'lectures:lecture' next %}"><button type="button" class="btn btn-primary l-btn"><span class="fs-4">Далее</span></button></a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+    <!-- Скрипт для бутстрапа -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </body>
+</html>

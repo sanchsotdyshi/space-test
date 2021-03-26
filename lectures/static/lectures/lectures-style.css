@@ -1,0 +1,15 @@
+.back{
+	background: url('images/background.jpg');
+}
+
+.player{
+	background-color: #13245e;
+	padding: 30px;
+	padding-bottom: 20px;
+	border: 3px solid black;
+	border-radius: 40px;
+}
+
+.btn{
+	margin-top: 20px;
+}

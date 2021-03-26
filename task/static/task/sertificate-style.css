@@ -1,0 +1,49 @@
+body{
+	background: url('images/background.jpg');
+}
+.sert{
+	padding: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 900px;
+	background: url('images/sertificate.png'); 
+}
+p{
+	color: #fff;
+}
+.header{
+	margin-top: 100px;
+	 text-align:  center;
+	font-size: 70px;
+	text-shadow: #000 0 0 50px;
+}
+.text{
+	margin-top: 30px;
+	text-align:  center;
+	font-size: 30px;
+	text-shadow: #000 0 0 50px;
+}
+.name{
+	margin-top: 30px;
+	text-align:  center;
+	font-size: 45px;
+	text-shadow: #000 0 0 50px;
+}
+.text-2{
+	margin-top: 30px;
+	text-align:  center;
+	font-size: 35px;
+	text-shadow: #000 0 0 50px;
+}
+.header-2{
+	margin-top: 30px;
+	text-align:  center;
+	font-size: 40px;
+	text-shadow: #000 0 0 50px;
+}
+.score{
+	margin-top: 30px;
+	text-align:  center;
+	font-size: 30px;
+	text-shadow: #000 0 0 50px;
+}

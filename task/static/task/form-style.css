@@ -1,0 +1,11 @@
+.back{
+	background: url('images/background.jpg');
+}
+
+.reg-form{
+	padding: 20px;
+	background-color: #13245e;
+	border: 3px solid black;
+	border-radius: 20px;
+	color: #fff;
+	margin-top: 100px;
